@@ -33,3 +33,6 @@ jobs:
         # Release ビルド
       - name: Build with dotnet
         run: dotnet build --configuration Release
+      
+      - name: Install Swashbuckle.AspNetCore
+        run: dotnet tool install --version 6.2.3 Swashbuckle.AspNetCore
