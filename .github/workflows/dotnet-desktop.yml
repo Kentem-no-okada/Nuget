@@ -1,0 +1,35 @@
+# Docs for the Azure Web Apps Deploy action: https://github.com/Azure/webapps-deploy
+# More GitHub Actions for Azure: https://github.com/Azure/actions
+
+name: .NET Core Desktop
+
+on:
+  push:
+    branches: ['main']
+  pull_request:
+    branches: ['main']
+
+  workflow_dispatch:
+
+defaults:
+  run:
+    working-directory: src/Ks.GitHub.Nuget.Sample/Ks.GitHub.Nuget.Sample
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v3
+
+        # .NET 6 ビルド準備
+      - name: Set up .NET Core
+        uses: actions/setup-dotnet@v3
+        with:
+          dotnet-version: 6.0.x
+          include-prerelease: true
+
+        # Release ビルド
+      - name: Build with dotnet
+        run: dotnet build --configuration Release
