@@ -25,7 +25,7 @@ jobs:
 
         # .NET 6 ビルド準備
       - name: Set up .NET Core
-        uses: actions/setup-dotnet@v3
+        uses: actions/setup-dotnet@v1
         with:
           dotnet-version: 6.0.x
           include-prerelease: true
