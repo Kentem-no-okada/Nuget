@@ -34,5 +34,5 @@ jobs:
       - name: Build with dotnet
         run: dotnet build --configuration Release
       
-      - name: Install Swashbuckle.AspNetCore
-        run: dotnet tool install --version 6.2.3 Swashbuckle.AspNetCore
+      - name: Install Swashbuckle.AspNetCore.Cli
+        run: dotnet tool install --version 6.2.3 Swashbuckle.AspNetCore.Cli
