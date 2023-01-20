@@ -33,18 +33,3 @@ jobs:
         # Release ビルド
       - name: Build with dotnet
         run: dotnet build --configuration Release
-        
-        # Packege Push
-      - name: Pack
-        run: | 
-        dotnet pack Ks.GitHub.Nuget.Sample.Model.csproj -o artifacts/
-      
-      - uses: actions/upload-artifact@v1
-        with:
-          name: artifacts
-          path: artifacts
-          
-      - name: Publish to GitHub Packages
-        run: |        
-          dotnet nuget add source "https://nuget.pkg.github.com/Kentem-no-okada/index.json" -n "github" -u Kentem-no-okada -p ${{secrets.Nuget.Sample}} --store-password-in-clear-text
-          dotnet nuget push "*.nupkg" --api-key ${{secrets.Nuget.Sample}} --source "github" --skip-duplicate
