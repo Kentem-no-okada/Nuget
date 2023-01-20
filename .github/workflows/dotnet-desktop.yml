@@ -30,9 +30,6 @@ jobs:
           dotnet-version: 6.0.x
           include-prerelease: true
 
-      - name: Install Swashbuckle.AspNetCore.Cli
-        run: dotnet tool install --version 6.2.3 Swashbuckle.AspNetCore.Cli
-
         # Release ビルド
       - name: Build with dotnet
         run: dotnet build --configuration Release
