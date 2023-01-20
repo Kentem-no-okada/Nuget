@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+    <Title>サンプルModels</Title>
+    <Authors>株式会社建設システム</Authors>
+    <Product>GitHub Nuget管理</Product>
+    <Description>GitHubでのNuget管理調査</Description>
+    <PackageProjectUrl>https://github.com/Kentem-no-okada/Nuget</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/Kentem-no-okada/Nuget</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+  </PropertyGroup>
+
+</Project>
