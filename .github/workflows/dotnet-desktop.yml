@@ -36,8 +36,8 @@ jobs:
         
         # Packege Push
       - name: Pack
-        run: |
-        dotnet pack src/Ks.GitHub.Nuget.Sample.Model/Ks.GitHub.Nuget.Sample.Model.csproj -o artifacts/
+        run: | 
+        dotnet pack Ks.GitHub.Nuget.Sample.Model.csproj -o artifacts/
       
       - uses: actions/upload-artifact@v1
         with:
