@@ -3,14 +3,18 @@
 	<PropertyGroup>
 		<TargetFramework>netstandard2.0</TargetFramework>
 		<GeneratePackageOnBuild>True</GeneratePackageOnBuild>
-		<Title>サンプルModels</Title>
+		<Title>サンプルKs.Json</Title>
 		<Authors>株式会社建設システム</Authors>
 		<Product>GitHub Nuget管理</Product>
-		<Description>GitHubでのNuget管理調査</Description>
+		<Description>GitHubでのNuget管理調査（Ks.Json）</Description>
 		<PackageProjectUrl>https://github.com/Kentem-no-okada/Nuget</PackageProjectUrl>
 		<RepositoryUrl>https://github.com/Kentem-no-okada/Nuget</RepositoryUrl>
 		<RepositoryType>git</RepositoryType>
 		<Version>0.0.2</Version>
 	</PropertyGroup>
+
+	<ItemGroup>
+		<PackageReference Include="Newtonsoft.Json" Version="13.0.2" />
+	</ItemGroup>
 
 </Project>
