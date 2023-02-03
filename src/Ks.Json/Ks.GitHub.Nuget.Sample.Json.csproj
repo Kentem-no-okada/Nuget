@@ -10,7 +10,8 @@
 		<PackageProjectUrl>https://github.com/Kentem-no-okada/Nuget</PackageProjectUrl>
 		<RepositoryUrl>https://github.com/Kentem-no-okada/Nuget</RepositoryUrl>
 		<RepositoryType>git</RepositoryType>
-		<Version>0.0.2</Version>
+		<Version>0.0.3</Version>
+		<PackageReleaseNotes>他と比較できるように変更</PackageReleaseNotes>
 	</PropertyGroup>
 
 	<ItemGroup>

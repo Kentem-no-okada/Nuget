@@ -7,7 +7,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ks.GitHub.Nuget.Sample", "K
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ks.GitHub.Nuget.Sample.Model", "Ks.GitHub.Nuget.Sample.Model\Ks.GitHub.Nuget.Sample.Model.csproj", "{2606138E-CAA7-4C1E-B6BE-525F37007E95}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ks.Json", "Ks.Json\Ks.Json.csproj", "{580D36B9-5E11-4A73-BDC1-579E57247814}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ks.GitHub.Nuget.Sample.Json", "Ks.Json\Ks.GitHub.Nuget.Sample.Json.csproj", "{580D36B9-5E11-4A73-BDC1-579E57247814}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

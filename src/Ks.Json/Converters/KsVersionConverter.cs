@@ -3,7 +3,7 @@ using System;
 using System.Collections.Generic;
 using System.Diagnostics;
 
-namespace Ks.Json.Standard.Converters
+namespace Ks.GitHub.Nuget.Sample.Json.Converters
 {
     /// <summary> VersionクラスのDeserializeをサポート(既存のDeserializeではバージョンが欠けている時にエラーが出るため) </summary> 
     internal class KsVersionConverter : JsonConverter

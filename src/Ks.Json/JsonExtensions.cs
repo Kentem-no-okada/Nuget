@@ -1,8 +1,8 @@
-﻿using Ks.Json.Standard.Converters;
+﻿using Ks.GitHub.Nuget.Sample.Json.Converters;
 using Newtonsoft.Json;
 using System.Collections.Generic;
 
-namespace Ks.Json
+namespace Ks.GitHub.Nuget.Sample.Json
 {
     public static class JsonExtensions
     {
